@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 * main - main block
+* Description - writing a program that printf
 * Return : 0
 */
 int main(void)
