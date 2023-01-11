@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, length, li;
+	int i, length, l1;
 	int j = 0;
 	char *p;
 
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 
 	while (l1 < length && s2[j] != '\0')
 	{
-		p[li] = s1[j];
+		p[l1] = s1[j];
 		l1++;
 		j++;
 	}
