@@ -8,7 +8,7 @@
  *
  * Description: it writes a function thta prints
  */
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
